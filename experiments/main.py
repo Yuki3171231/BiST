@@ -36,7 +36,8 @@ def get_config():
     parser.add_argument('--num_layer', type=int, default=3)
     parser.add_argument('--model_dim', type=int, default=32)
     parser.add_argument('--prompt_dim', type=int, default=32)
-
+    parser.add_argument('--kernel_size', type=int, default=3)
+    
     # tranining parameters
     parser.add_argument('--lrate', type=float, default=2e-3)
     parser.add_argument('--wdecay', type=float, default=1e-5)
